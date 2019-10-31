@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/NeuNets/.vs/NeuNets/v16
+/NeuNets/bin/Debug/netcoreapp3.0
+/NeuNets/obj
+/NeuNetTests/bin/Debug/netcoreapp3.0
+/NeuNetTests/obj

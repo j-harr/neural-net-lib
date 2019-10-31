@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuNets", "NeuNets.csproj", "{C4C135F6-303E-4CC4-B50C-C91EB06A10BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuNetTests", "..\NeuNetTests\NeuNetTests.csproj", "{1098C4D8-5723-4881-99BA-3F74CA0866A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C135F6-303E-4CC4-B50C-C91EB06A10BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C135F6-303E-4CC4-B50C-C91EB06A10BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C135F6-303E-4CC4-B50C-C91EB06A10BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C135F6-303E-4CC4-B50C-C91EB06A10BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1098C4D8-5723-4881-99BA-3F74CA0866A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1098C4D8-5723-4881-99BA-3F74CA0866A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1098C4D8-5723-4881-99BA-3F74CA0866A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1098C4D8-5723-4881-99BA-3F74CA0866A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5049103F-0BA3-468A-BB79-6B18F4E6EAAE}
+	EndGlobalSection
+EndGlobal
