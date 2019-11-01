@@ -7,6 +7,7 @@ namespace NeuNets
     public class NeuralLayer
     {
         private int size;
+        private NeuralLayer sublayer;
         public NeuralLayer()
         {
             this.size = 0;
@@ -19,5 +20,14 @@ namespace NeuNets
         }
 
         public int getSize() { return this.size; }
+
+        public void addLayer(NeuralLayer otherLayer)
+        {
+            if(this.getSize() == 0)
+            {
+                throw new InvalidOperationException();
+            }
+            this.sublayer = otherLayer;
+        }
     }
 }

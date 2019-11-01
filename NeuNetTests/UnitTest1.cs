@@ -26,7 +26,16 @@ namespace NeuNetTests
             nl = new NeuralLayer(0);
             Assert.AreEqual(0, nl.getSize());
 
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => nl = new NeuralLayer(-3));
+            Assert.ThrowsException<ArgumentOutOfRangeException>(
+                () => nl = new NeuralLayer(-3));
+        }
+
+        [TestMethod]
+        public void AddLayerToZeroSubLayersFails()
+        {
+            NeuralLayer nl = new NeuralLayer(0);
+            Assert.ThrowsException<InvalidOperationException>(
+                () => nl.addLayer(new NeuralLayer(2)));
         }
     }
 }
